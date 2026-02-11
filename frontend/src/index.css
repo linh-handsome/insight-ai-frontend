@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-text antialiased;
+  }
+}
+
+/* Glassmorphism utilities */
+.glass-panel {
+    @apply bg-brand-surface bg-opacity-60 backdrop-blur-lg border border-white/10 rounded-xl shadow-xl;
+}

@@ -1,0 +1,11 @@
+mediapipe==0.10.9
+protobuf==3.20.3
+opencv-python
+fastapi
+uvicorn
+tensorflow==2.15.0
+reportlab
+numpy==1.26.4
+pandas
+websockets
+uvicorn[standard]
