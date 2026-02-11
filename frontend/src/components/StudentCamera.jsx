@@ -42,7 +42,7 @@ const StudentCamera = ({ onUpdate, studentId }) => {
 
     // Initialize Socket
     useEffect(() => {
-        const ENDPOINT = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
+        const ENDPOINT = import.meta.env.VITE_BACKEND_URL || 'https://insight-ai-backend-ay3w.onrender.com';
         socketRef.current = io(ENDPOINT);
         return () => {
             if (socketRef.current) socketRef.current.disconnect();
